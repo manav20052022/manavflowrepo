@@ -24,7 +24,7 @@ jobs:
       - name: Build Go app
         uses: docker://golang:1.20
         run: |
-          go build -v ./...
+          go build -v ./..
       - name: Run test
         uses: docker://golang:1.20
         run: |
